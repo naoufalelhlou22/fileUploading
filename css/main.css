@@ -1,0 +1,144 @@
+/* General Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    background-color: #1a1a1a;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 16px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+header nav a {
+    margin: 0 8px;
+    text-decoration: none;
+    color: #ccc;
+    padding: 8px 16px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+header nav a.login {
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    padding: 8px 16px;
+}
+
+/* Main Content */
+main {
+    flex: 1;
+    padding: 32px;
+}
+
+.upload-section {
+    background-color: #333;
+    border-radius: 8px;
+    padding: 16px;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.upload-section h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.upload-section p {
+    text-align: center;
+    color: #aaa;
+    margin-bottom: 24px;
+}
+
+.upload-section form label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.upload-section form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #555;
+    border-radius: 4px;
+    background-color: #444;
+    color: white;
+}
+
+.upload-section form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.upload-section form button:hover {
+    background-color: #0056b3;
+}
+
+/* Call to Action */
+.call-to-action {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 32px 16px;
+}
+
+.call-to-action h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.call-to-action p {
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.call-to-action a {
+    display: inline-block;
+    background-color: white;
+    color: #007bff;
+    padding: 12px 24px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.call-to-action a:hover {
+    background-color: #f0f0f0;
+}
+
+/* Footer */
+footer {
+    background-color: #1a1a1a;
+    color: #aaa;
+    text-align: center;
+    padding: 16px;
+}
